@@ -1,0 +1,211 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+body * {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand p {
+  font-family: Lobster;
+  font-size: 40px;
+  font-weight: regular;
+}
+
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+  width: 65%;
+  margin-top: 70px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+hr {
+  width: 100%;
+  background: #808080;
+}
+
+p {
+  font-size: 18px;
+  font-weight: Regular;
+}
+
+li {
+    font-size: 18px;
+    font-weight: Regular;
+}
+
+header p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+header button {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.hgroup hr {
+  width: 23%;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 1px;
+  border-radius: 100%;
+  background: #000000;
+}
+
+.lista {
+  margin-bottom: 40px;
+}
+
+.lista h5 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#preparacion li {
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+
+.newsletter {
+  width: 100%;
+  height: auto;
+  padding-bottom: 180px;
+  padding-top: 140px;
+}
+
+.newsletter p {
+  font-size: 40px;
+  font-weight: Regular;
+}
+
+.newsletter p span {
+  font-family: Lobster;
+  font-size: 38px;
+  font-weight: regular;
+}
+
+.newsletter button {
+  width: 20%;
+}
+
+footer p {
+  font-family: Lobster;
+  font-size: 40px;
+  font-weight: regular;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+.navbar-brand p {
+  font-size: 30px;
+}
+
+.first-line hr {
+  background: #808080;
+}
+
+header img {
+margin-top: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+header button {
+  margin-right: 5px;
+  padding-right: 5px;
+}
+
+header span {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.hgroup hr {
+  width: 42%;
+}
+
+.lista {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+#preparacion li {
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.newsletter p {
+  padding: 30px;
+  font-size: 22px;
+  font-weight: Regular;
+  margin-top: 20px;
+  line-height: normal;
+}
+
+.newsletter p span {
+  font-family: Lobster;
+  font-size: 25px;
+  font-weight: regular;
+}
+
+.newsletter button {
+  width: 80%;
+  margin-top: 20px;
+}
+
+
+}
